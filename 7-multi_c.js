@@ -1,4 +1,4 @@
-const x = number(process.argv[2]);
+const x = Number(process.argv[2]);
 
 if (Number.isInteger(x)) {
    for (let i = 0; i < x; i++) {
